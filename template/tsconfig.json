@@ -1,0 +1,20 @@
+{
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+    "baseUrl": "./app",                       /* Base directory to resolve non-absolute module names. */
+    "paths": {                                /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
+      "assets": ["views/assets"],
+      "assets/*": ["views/assets/*"],
+      "components": ["views/components"],
+      "components/*": ["views/components/*"],
+      "elements": ["views/elements"],
+      "elements/*": ["views/elements/*"],
+      "modals": ["views/modals"],
+      "modals/*": ["views/modals/*"],
+      "containers": ["views/containers"],
+      "containers/*": ["views/containers/*"]
+    },
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["**/node_modules", "**/Pods"]
+}

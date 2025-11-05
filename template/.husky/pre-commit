@@ -1,0 +1,4 @@
+
+yarn run prettier:write
+yarn run type-check
+yarn run lint
